@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/2dnieycn8un7c1q4?svg=true)](https://ci.appveyor.com/project/volik97/react-forms-steps)

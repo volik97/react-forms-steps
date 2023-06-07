@@ -1,0 +1,50 @@
+.item{
+    display: flex;
+    flex-flow: row nowrap;
+}
+svg{
+    z-index: 9999;
+    pointer-events: none;
+}
+.wrapper-svg:hover{
+    transform: scale(1.2);
+}
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 400px;
+    margin: 0 auto;
+}
+input{
+    margin: 5px 0;
+}
+button{
+    width:200px;
+    margin: 10px auto;
+}
+.titles{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.listItems{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.item-date{
+    width:167px;
+    text-align: start;
+    padding-left: 20px;
+}
+
+.item-distance{
+    text-align: start;
+    width:160px
+}
